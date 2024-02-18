@@ -78,5 +78,10 @@ const checkWinner=()=>{
     };
 };
 
+const drawgame=()=>{
+    msg.innerText = "Game is Draw. Restart the Game";
+    msgContainer.classList.remove("hide");
+  };
+  
 newGameBtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);
